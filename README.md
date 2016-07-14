@@ -2,6 +2,10 @@
 
 A simple jQuery plugin for image zooming; as seen on [Medium](https://medium.com/designing-medium/image-zoom-on-medium-24d146fc0c20).
 
+### Changes in this fork
+
+* Removed emulation of the transitionend event, which requires Bootstrap's [transition.js](https://raw.githubusercontent.com/twbs/bootstrap/master/js/transition.js) (our copy of Bootstrap is out of date)
+
 ### Demo
 https://fat.github.io/zoom.js
 

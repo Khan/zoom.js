@@ -1,6 +1,6 @@
 /**
  * zoom.js - It's the best way to zoom an image
- * @version v0.0.2
+ * @version v0.0.3
  * @link https://github.com/fat/zoom.js
  * @license MIT
  */
@@ -261,7 +261,6 @@
 
     $(this._targetImage)
       .one($.support.transition.end, $.proxy(this.dispose, this))
-      .emulateTransitionEnd(300)
   }
 
   Zoom.prototype.dispose = function () {
